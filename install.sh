@@ -1,12 +1,14 @@
 #!/bin/sh
 
-## install shell and basic utilities
-sudo apt install -y zsh unzip ruby openssh-server curl cifs-utils
-sudo apt install -y gcc make pkg-config libglvnd-dev  # for NVIDIA driver
-sudo apt install -y tmux
+# install applications
+sudo apt install -y build-essential g++ gcc libglvnd-dev libfuse2 make pkg-config  # 開発ツール  
+sudo apt install -y cifs-utils direnv file procps unzip  # システム管理・ユーティリティ
+sudo apt install -y keychain openssh-server tmux zsh  # シェル・リモート
+sudo apt install -y imagemagick neovim curl git ruby  # エディタ・画像処理・一般ツール・言語
+
 sudo chsh -s /bin/zsh $(whoami)
 
-## install homebrew
+# install homebrew
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ## Neovim install and setting
