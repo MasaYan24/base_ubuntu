@@ -4,7 +4,7 @@
 sudo apt install -y build-essential g++ gcc libglvnd-dev libfuse2 make pkg-config  # 開発ツール  
 sudo apt install -y cifs-utils direnv file procps unzip  # システム管理・ユーティリティ
 sudo apt install -y keychain openssh-server tmux zsh  # シェル・リモート
-sudo apt install -y imagemagick neovim curl git ruby  # エディタ・画像処理・一般ツール・言語
+sudo apt install -y imagemagick neovim curl git ruby wget xclip # エディタ・画像処理・一般ツール・言語
 
 sudo chsh -s /bin/zsh $(whoami)
 
