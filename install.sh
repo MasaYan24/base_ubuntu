@@ -22,6 +22,9 @@ mkdir -p $HOME/.config && echo "command_timeout = 2000" > $HOME/.config/starship
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 wget https://raw.githubusercontent.com/MasaYan24/zshrc/main/.zshrc -P $HOME/
 
+
+exit 1
+
 ## Developing tool
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
   -O /tmp/miniconda.sh \
