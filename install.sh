@@ -8,6 +8,8 @@ sudo apt install -y imagemagick neovim curl git ruby wget xclip # エディタ�
 
 sudo chsh -s /bin/zsh $(whoami)
 
+/bin/zsh
+
 # install homebrew
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -26,8 +28,6 @@ wget https://raw.githubusercontent.com/MasaYan24/zshrc/main/.zshrc -P $HOME/
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
   -O /tmp/miniconda.sh \
   && sh /tmp/miniconda.sh -b -p $HOME/miniconda
-
-exit 1
 
 ## git setting
 git config --global core.editor nano
