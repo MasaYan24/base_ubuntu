@@ -22,10 +22,10 @@ mkdir -p $HOME/.config && echo "command_timeout = 2000" > $HOME/.config/starship
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 wget -q https://raw.githubusercontent.com/MasaYan24/zshrc/main/.zshrc -P $HOME/
 
-## Developing tool
-wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
-  -O /tmp/miniconda.sh \
-  && sh /tmp/miniconda.sh -b -p $HOME/miniconda
+## Developing tool  -> do it in user setting `setting_ubuntu_user_masayan`
+# wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
+#   -O /tmp/miniconda.sh \
+#   && sh /tmp/miniconda.sh -b -p $HOME/miniconda
 
 ## git setting
 git config --global core.editor nano
