@@ -8,8 +8,6 @@ sudo apt install -y imagemagick neovim curl git ruby wget xclip # エディタ�
 
 sudo chsh -s $(which zsh)  $(whoami)
 
-zsh
-
 # install homebrew
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
