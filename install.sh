@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # install applications
 sudo apt install -y build-essential g++ gcc libglvnd-dev libfuse2 make pkg-config  # 開発ツール  
