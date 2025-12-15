@@ -6,9 +6,9 @@ sudo apt install -y cifs-utils direnv file procps unzip  # システム管理・
 sudo apt install -y keychain openssh-server tmux zsh  # シェル・リモート
 sudo apt install -y imagemagick neovim curl git ruby wget xclip # エディタ・画像処理・一般ツール・言語
 
-sudo chsh -s /bin/zsh $(whoami)
+sudo chsh -s $(which zsh)  $(whoami)
 
-/bin/zsh
+zsh
 
 # install homebrew
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
