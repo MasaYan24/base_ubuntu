@@ -17,7 +17,7 @@ NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Ho
 # sh $HOME/.vim/install.sh
 
 ## Prompto setting
-brew install starship
+brew install starship -q
 mkdir -p $HOME/.config && echo "command_timeout = 2000" > $HOME/.config/starship.toml
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 wget -q https://raw.githubusercontent.com/MasaYan24/zshrc/main/.zshrc -P $HOME/
