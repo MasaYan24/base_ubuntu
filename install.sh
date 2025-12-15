@@ -38,7 +38,7 @@ conda activate base
 pip install black isort flake8 autopep8
 
 # Update all
-sudo apt update -y && upgrade -y && sudo apt autoremove -y
+sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 
 # reboot
 read -p "reboot? [y/N]: " answer
